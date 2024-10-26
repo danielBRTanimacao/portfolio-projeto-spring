@@ -1,7 +1,6 @@
 # Projeto portfolio spring web☕
 
-<!-- <img src="./img-readme/img-project.png" alt="img-project" /> -->
-<img src="https://fakeimg.pl/1280x720/">
+<img src="./img-redme/img-project.png" alt="img-project" />
 
 > Lorem
 
