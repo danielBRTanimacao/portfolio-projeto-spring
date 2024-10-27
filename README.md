@@ -8,24 +8,25 @@
 
 Antes de clonar o projeto e recomendado você ter os seguintes requisitos:
 
--   Requisito `1`
--   Requisito `2`
--   Requisito `3`
--   Requisito `4`
+-   Necessario ter `java` instalado
+-   Requisito `git` para clonar
+-   Sua maquina `Windows, Linux ou Mac`.
+-   Necessario uma `IDE`
+-   Conhecimento basico `Api`
 
 ## Tecnologias 🚀
 
 As principais tecnologias e ferramentas utilizadas neste projeto são:
 
--   `java`: Sobre
--   `Spring`: Sobre
+-   `java`: linguagem de programação de alto nível, orientada a objetos, e amplamente utilizada em diversos setores, desde desenvolvimento web e mobile até aplicações corporativas e sistemas embarcados.
+-   `Spring`: uma plataforma popular e poderosa para o desenvolvimento de aplicações especialmente no backend. Ele facilita a criação de sistemas robustos e escaláveis, fornecendo uma infraestrutura que simplifica tarefas comuns, como injeção de dependências, segurança, acesso a banco de dados e desenvolvimento web.
 
 ## Como instalar 🚀
 
 Windows, Linux e macOS
 
 ```
-git clone este-repo
+git clone https://github.com/danielBRTanimacao/portfolio-projeto-spring.git
 
 cd spring-web
 ```
