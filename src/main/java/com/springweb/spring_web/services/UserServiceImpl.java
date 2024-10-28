@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.springweb.spring_web.entities.User;
 import com.springweb.spring_web.repositories.UserRepository;
+import com.springweb.spring_web.services.exceptions.ResourceNotFoundException;
 
 import java.util.List;
 import java.util.Optional;
@@ -22,7 +23,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Optional<User> findById(Long id) {
-        return userRepository.findById(id);
+        return Optional.ofNullable(userRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Usuário não encontrado com ID: " + id)));
     }
 
     @Override
@@ -48,4 +50,5 @@ public class UserServiceImpl implements UserService {
         }
         throw new RuntimeException("User não encontrado id: " + id);
     }
+
 }
