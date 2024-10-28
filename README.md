@@ -2,7 +2,7 @@
 
 <img src="./img-redme/img-project.png" alt="img-project" />
 
-> Lorem
+> Este projeto apresenta um relatório para atividade solicitada na disciplina programação web, realizada no 4° semestre do curso de Análise e Desenvolvimento de Sistemas. O objetivo da atividade foi criar um projeto Spring Boot Java, implementar modelo de domínio, estruturar camadas lógicas: resource, service, repository, configurar banco de dados de teste (H2), povoar o banco de dados CRUD - Create, Retrieve, Update, delete Tratamento de exceções neste relatório, serão descritos os passos seguidos para o desenvolvimento do projeto.
 
 ## Requisitos 💻
 
